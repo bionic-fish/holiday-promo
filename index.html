@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Thailand Showcase</title>
+  <!-- css  -->
+  <link rel="stylesheet" href="assets/css/master.css">
+  <!-- css animations  -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- ext libs  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+  <!-- materialize css  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- google fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- top nav and promo bar  -->
+  <header class="header red">
+      <span class="left">
+        <h5 class="white-text">Flash Deals! <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#fff">
+          <path fill="none" d="M24 0H0v24h24V0z"/>
+          <path d="M17.66 7.93L12 2.27 6.34 7.93c-3.12 3.12-3.12 8.19 0 11.31C7.9 20.8 9.95 21.58 12 21.58s4.1-.78 5.66-2.34c3.12-3.12 3.12-8.19 0-11.31zM12 19.59c-1.6 0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z"/>
+        </svg>
+        </h5>
+
+           <!-- <i class="fas fa-fire animated wobble infinite"></i> -->
+
+      </span>
+
+      <span class="topnav right">
+        <a href="#main">Home</a>
+        <a href="#offer">Book</a>
+        <a href="#">Sale</a>
+      </span>
+  </header>
+
+  <!-- moving image file  -->
+  <div class="banner clearfix">
+    <video autoplay muted loop id="moving">
+      <source src="assets/media/moving-banner.mp4" type="video/mp4">
+      Your browser does not support the video tag element!
+    </video>
+  </div>
+
+  <!-- main section -->
+  <section id="main">
+    <div class="container center">
+      <h1 class="center">Phuket, Thailand</h1>
+      <i class="material-icons medium">brightness_5</i>
+    </div>
+
+    <div class="panel panel__streamer white-text">
+      <h4>More Special Offers at FlashDeals.io
+    </div>
+
+    <div class="container center" id="offer">
+      <h2>Special Offer!</h2>
+      <i class="material-icons medium">beach_access</i>
+
+      <div class="container">
+        <h4 id="countdown"></h4>
+
+        <button class=" btn btn-Large red pulse">Book Now</button>
+      </div>
+
+      <br><br>
+      <h5>Patong Beach Resort & Spa</h5>
+      <!-- deals list items  -->
+      <ul>
+        <li><p>Private Beach Access, Room Spa + Sauna</p></li>
+        <br>
+        <li><p>Luxury Superior Room For 10 Nights</p></li>
+        <br>
+        <li><p>Welcome Drink & Daily buffet Breakfast</p></li>
+        <br>
+        <li><p>Pay for 5 Nights, Stay For 10!</p></li>
+        <br>
+        <li><p>Flights Included</p></li>
+      </ul>
+
+      <br><br>
+
+      <div class="flex">
+        <div class="box box__deal1"></div>
+        <div class="box box__deal2"></div>
+        <div class="box box__deal3"></div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section id="about">
+    <div class="container center">
+      <h3>About Thailand</h3>
+      <p class="flow-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, quisquam
+        voluptatum officiis nemo ipsa, explicabo doloremque est non, molestiae tempore iste,
+         sit dolor quaerat repudiandae quidem consequatur cupiditate blanditiis veritatis?
+      </p>
+      <br><br>
+
+      <div class="carousel">
+        <a class="carousel-item"><img src="assets/img/caro-1.jpg"></a>
+        <a class="carousel-item"><img src="assets/img/caro-2.jpg"></a>
+        <a class="carousel-item"><img src="assets/img/caro-3.jpg"></a>
+        <a class="carousel-item"><img src="assets/img/caro-4.jpg"></a>
+        <a class="carousel-item"><img src="assets/img/caro-5.jpg"></a>
+        <a class="carousel-item"><img src="assets/img/caro-6.jpg"></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- todo section  -->
+  <section id="todo">
+    <div class="container center">
+      <h3>Things To Do</h3>
+      <p class="flow-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, quisquam
+        voluptatum officiis nemo ipsa, explicabo doloremque est non, molestiae tempore iste,
+         sit dolor quaerat repudiandae quidem consequatur cupiditate blanditiis veritatis?
+      </p>
+      <div class="flex">
+        <div class="box box__disc"><h4 class="white-text">Discover</h4></div>
+        <div class="box box__expl"><h4 class="white-text">Explore</h4></div>
+        <div class="box box__amaz"><h4 class="white-text">Amazement</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- maps & country info  -->
+  <section id="info">
+    <div class="container center">
+      <h3>Location</h3>
+      <div class="rect rect__map"></div>
+
+    </div>
+  </section>
+
+  <section id="more">
+    <div class="container center">
+      <h3>More Deals</h3>
+      <br><br>
+      <p class="flow-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, vero a iste necessitatibus
+         et ut, repellendus, at perspiciatis deleniti voluptatem mollitia dolor veniam eligendi.
+          Tempora voluptate, laudantium? Sequi, fugit, facere.
+      </p>
+
+      <div class="flex">
+        <div class="box box__asia"><h4 class="white-text">Asia</h4></div>
+        <div class="box box__euro"><h4 class="white-text">Europe</h4></div>
+        <div class="box box__usa"><h4 class="white-text">Americas</h4></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer  -->
+  <footer class="page-footer grey">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Subscribe for the latest deals and offers!</h5>
+                <p class="white-text">Provide a standard email address and we will send you deals once they are active</p>
+                <br>
+                <label for="email" class="white-text">Email</label>
+                <input id="email" type="email" class="validate">
+
+
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Destinations</h5>
+                <ul>
+                  <li><a class="white-text" href="#!">Explore Asia</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Explore Europe</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Explore South Americas</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Explore Oceania</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Copyright
+            <a class="white-text right" href="#!">More HotDeals!</a>
+            </div>
+          </div>
+        </footer>
+
+  <!--ext scripts  -->
+  <script src="assets/js/index.js" charset="utf-8"></script>
+  <!-- materialize scripts  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+
+
+
+
+</body>
+</html>

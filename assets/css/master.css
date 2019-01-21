@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+}
+/* global elements */
+.container {
+  padding: 50px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* banner elements */
+.banner {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 80px
+}
+/* moving banner image  */
+#moving {
+  width: 100%;
+}
+
+/* header elemnts  */
+.header {
+  width: 100%;
+  padding-top: 20px;
+  height: 90px;
+  border-radius: 0 0 10px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header h5 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.topnav a {
+  color: #fff;
+  padding: 20px;
+  margin: 0px auto;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+/* box image elements  */
+.box {
+  align-items: center;
+  background-color: #333;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  margin: 20px auto;
+  width: 300px;
+}
+
+/* box images [special offer] */
+.box__deal1 {background-image: url('../img/deal-1.jpg');}
+.box__deal2 {background-image: url('../img/deal-2.jpg');}
+.box__deal3 {background-image: url('../img/deal-3.jpg');}
+
+/* box images [things todo] */
+.box__disc {background-image: url('../img/thai-1.jpg');}
+.box__expl {background-image: url('../img/thai-2.jpg');}
+.box__amaz {background-image: url('../img/thai-3.jpg');}
+
+/* box images [more section] */
+.box__asia {background-image: url('../img/more-asia.jpg');}
+.box__euro {background-image: url('../img/more-euro.jpg');}
+.box__usa {background-image: url('../img/more-usa.jpg');}
+
+/* panel image elements */
+.panel {
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.panel__streamer {background-image: url('../img/streamer.jpg');}
+
+/* icon animations  */
+#main i {
+  animation-name: rotateSun;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+  color: red;
+}
+@keyframes rotateSun {
+  0% {transform:rotateY(0deg);}
+  50% {transform:rotateY(180deg);}
+  100% {transform:rotateY(360deg);}
+}
