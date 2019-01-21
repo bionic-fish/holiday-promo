@@ -44,6 +44,13 @@ body {
   text-align: center;
   z-index: 1000;
 }
+.head-left {
+  float: left;
+
+}
+.head-right {
+  float: right;
+}
 .header h5 {
   font-size: 20px;
   font-weight: bolder;
@@ -117,11 +124,12 @@ body {
 @media screen and (max-width: 900px) {
   .header {
     display: block;
+    text-align: center;
   }
-  .left {
+  .head-left {
     float: none;
   }
-  .right {
+  .head-right {
     float: none;
   }
 }
